@@ -5,11 +5,11 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import { BrowserRouter } from "react-router-dom";
 import { MoralisProvider } from "react-moralis";
-
+// import "antd/dist/antd.css";
 
 ReactDOM.render(
   <React.StrictMode>
-    <MoralisProvider appId="xxxxxxxx" serverUrl="xxxxxxxx">
+    <MoralisProvider appId="BKkgNCZpXqGl3kcb6sRD4dAmOwDVSU6AkuB9F5HC" serverUrl="https://xbguywprazfu.usemoralis.com:2053/server">
       <BrowserRouter>
         <App />
       </BrowserRouter>

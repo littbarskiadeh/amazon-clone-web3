@@ -3,6 +3,8 @@ import Spidey2 from "./images/spiderman2.png";
 import Spidey3 from "./images/spiderman3.png";
 import Spidey4 from "./images/spiderman4.png";
 import Dictionary from "./images/oxford.png";
+import Horror from "./images/horror.png";
+import Adventure from "./images/adventure.png";
 
 export const books = {
   Comics: [
@@ -51,6 +53,24 @@ export const books = {
   ],
   Novels: [],
   Fantasy: [],
-  Horror: [],
-  Adventure: [],
+  Horror: [
+    {
+      name: "Nightmare on Elm Street",
+      price: 10.99,
+      rating: 5,
+      image: Horror,
+      about:
+        "The foremost single volume authority in Horror!!"
+    },
+  ],
+  Adventure: [
+    {
+      name: "Travel Journal",
+      price: 12.99,
+      rating: 4,
+      image: Adventure,
+      about:
+        "Africa Asia Antlantica Australia Europe!"
+    },
+  ],
 };
